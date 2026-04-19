@@ -24,7 +24,7 @@ st.markdown("""
 def load_and_train():
     # 1. Load Data
     try:
-        data = pd.read_csv('credit.csv')
+        data = pd.read_csv('credit_sample.csv')
     except FileNotFoundError:
         return None, None, None, None, None
 
