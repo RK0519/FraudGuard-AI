@@ -1,6 +1,6 @@
 # FraudGuard AI 🛡️
 
-[![Live Demo](https://fraudguard-aigit-6uhvuu2qrkxyxbxklunqk8.streamlit.app/)]
+.[![Live Demo](https://fraudguard-aigit-6uhvuu2qrkxybxklunqk8.streamlit.app/)].
 
 **FraudGuard AI** is a live, Streamlit-based web application engineered to detect fraudulent credit card transactions using an optimized **Logistic Regression** pipeline. To handle extreme transactional data imbalance, the underlying architecture implements data undersampling techniques and tracks precise performance metrics to deliver reliable, end-to-end data engineering in practice.
 
