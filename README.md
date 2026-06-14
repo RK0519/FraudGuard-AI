@@ -1,13 +1,32 @@
-# Credit Card Fraud Detection AI 🛡️
+# FraudGuard AI 🛡️
 
-This is a Streamlit-based web application that uses **Logistic Regression** to detect fraudulent credit card transactions.
+[![Live Demo](https://fraudguard-aigit-6uhvuu2qrkxyxbxklunqk8.streamlit.app/)]
 
-## 📊 Dataset
-Due to file size limits, the `credit.csv` file is not included in this repository. 
-You can download it here: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/arockiaselciaa/creditcardcsv/data)
+**FraudGuard AI** is a live, Streamlit-based web application engineered to detect fraudulent credit card transactions using an optimized **Logistic Regression** pipeline. To handle extreme transactional data imbalance, the underlying architecture implements data undersampling techniques and tracks precise performance metrics to deliver reliable, end-to-end data engineering in practice.
 
-## 🚀 How to Run
-1. Clone this repo.
-2. Place the downloaded `creditcard.csv` in the root folder and rename it to `credit.csv`.
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the app: `streamlit run app.py`
+---
+
+## 📊 Dataset & Optimization
+
+* **Plug-and-Play Demo Data:** A lightweight `credit_sample.csv` is included directly within this repository, allowing the Streamlit interface to run locally or on a cloud instance instantly with zero manual data configuration.
+* **Full Dataset Handling:** The predictive pipeline is built to address extreme class imbalances typical of real-world financial records[cite: 1]. For benchmarking with the full-scale dataset, you can download the complete source file here: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/arockiaselciaa/creditcardcsv/data).
+* **Data Engineering Layer:** Implements localized data undersampling techniques to balance highly skewed transactional data vectors prior to training the predictive Logistic Regression model.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend & Live Deployment:** Streamlit[cite: 1]
+* **Machine Learning Framework:** Scikit-Learn (Logistic Regression, Data Preprocessing, Metric Utilities)[cite: 1]
+* **Data Engineering & Analysis:** Python, Pandas, NumPy[cite: 1]
+
+---
+
+## 🚀 How to Run Locally
+
+Follow these steps to spin up the application on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/RK0519/FraudGuard-AI.git
+cd FraudGuard-AI
